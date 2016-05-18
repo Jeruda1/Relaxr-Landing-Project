@@ -1,0 +1,368 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Your Client
+Author: Jerusha Barnes
+Developer @GA in LA
+*/
+
+
+
+body {
+     background-color:#f0efef;
+     line-height: 1.4;
+     font-family: sans-serif;    
+}
+
+#container {
+  background-image: url("http://i.imgur.com/le1XdFM.jpg");
+  background-size: cover;
+  height:300px;
+  background-position: right top;
+  text-align:center;
+}
+  
+#container h1{
+  padding: 20px 0px 0px 55px;
+  text-align:left;
+  font-family: 'Open Sans', sans-serif; 
+  font-size:24px;
+  font-weight:800;
+  color:white;
+}
+#container h2{
+  text-align:center;
+  font-family:'Open Sans', sans-serif;
+  font-size:24px;
+  font-weight:600;
+  color:white;
+  padding-bottom:30px;
+}
+#container a {
+  background-color:#f9e42e;
+  padding: 5px 20px 5px 20px;
+  text-align:center;
+  margin-right:0px;
+  border-radius: 5px;
+  font-family:'Open Sans', sans-serif;
+  font-size:14px;
+  font-weight:800;
+  color:#121212;
+  text-decoration: none;
+}
+#Benefits h3{
+  font-family:'Open Sans', sans-serif;
+  font-weight:600;
+  font-size:20px;
+  color:#121212;
+   margin: 30px 0px 0px 55px;
+}
+#Benefits p{
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  font-size:13px;
+  color:#606161;
+  margin: 10px 0px 0px 55px;
+  max-width:390px;
+}
+#list li{
+  list-style-type:disc;
+}
+section ul{
+  font-family:'Open Sans', sans-serif;
+  font-weight:300;
+  font-size:13px;
+  color:#606161;
+  max-width:290px;
+}
+#list{
+  margin: 30px 0px 0px 100px;
+}
+#Benefits {
+  background-color:#f0efef;
+  padding:15px 0px 25px 0px;
+}
+blockquote{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  font-style:italic;
+  font-size:18px;
+  text-align:center;
+  margin:0 auto;
+  padding:40px 0px 0px 0px;
+  color:white;
+  width:300px;
+}
+#testimonial {
+  background-image: url("http://i.imgur.com/RxcQwLV.jpg");
+  background-size: cover;
+  width:100%;
+  height:200px;
+  text-align:center;
+}
+#testimonial p {
+  font-family:'Open Sans', sans-serif;
+  font-weight:600;
+  font-size:18px;
+  color:white;
+  text-align:center;
+  margin:0 auto;
+}
+#banner{
+  background-color:#f9e42e;
+  padding:20px;
+  display:block;
+  text-align:center;
+  width:100%;
+}
+#banner a {
+  background-color:#033048;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-family:'Open Sans', sans-serif;
+  font-weight:800;
+  font-size:12px;
+  color:white;
+  text-decoration: none;
+}
+footer {
+  background-color:#121212;
+  padding:30px;
+  display:block;
+  clear:both;
+}
+footer h1{
+  font-family: 'Open Sans', sans-serif; 
+  font-size:24px;
+  font-weight:800;
+  color:#f9e42e;
+  text-align:center;
+ padding:0px 100px 0px 100px;
+ margin:0 auto;
+}
+footer div{
+  margin:0 auto;
+  width:300px;
+  text-align:center;
+}
+footer img{
+  padding:10px;
+  height:20px;
+}
+footer p{
+  font-family:'Open Sans', sans-serif;
+  font-size:9px;
+  font-weight:600;
+  text-align:center;
+  color:white;
+}
+
+/******************************************
+/* Blog Styles
+/*******************************************/
+/* Box Model Hack */
+/** {
+     -moz-box-sizing: border-box; /* Firexfox */
+     /*-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */*/
+     /*box-sizing: border-box; /* IE */*/
+/*}*/
+
+/* Clear fix hack */
+/*.clearfix:after {*/
+    /* content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}*/
+
+/*.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}*/
+
+/*.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; */ note the padding around a left floated image 
+}*/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+/*/*//*#container {*/
+  /*width: 960px;
+  margin: auto;*/
+body {
+     background-color:#f0efef;
+     line-height: 1.4;
+     font-family: sans-serif;  
+     width:1020px;  
+}
+header{
+  box-sizing:border-box;
+}
+header#content {
+  position:relative;
+  height:100px;
+  background-color:#033048;
+  width:100%;
+}
+nav {
+  position:absolute;
+  top:40px;
+  right:0px;
+  margin-top:-12.5px;
+}
+#logo2{
+  font-family: 'Open Sans', sans-serif; 
+  font-size:34px;
+  font-weight:800;
+  color:white;
+  height:100px;
+  padding:25px 0px 0px 40px;
+}
+header ul{
+  margin:0px;
+}
+li {
+  display:inline-block;
+}
+header a{
+  font-weight:600;
+  font-family: 'Open Sans', sans-serif;
+  color:#f9e42e;
+  text-decoration:none;
+  font-size:24px;
+  padding:15px 80px 0px 0px;
+}
+#article1 img, #article2 img{
+  background-size: cover;
+  width:1000px;
+  margin-left:40px;
+}
+#article1 h2, #article2 h2{
+  font-size:40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  color:#121212;
+  margin-left: 40px;
+  width:700px;
+  margin-top:50px;
+}
+#article2 h2{
+  margin-top:30px;
+}
+.firstcharacter{
+  color:#606161;
+  font-weight:600;
+  font-size:30px;
+  float:left;
+  padding:0px 3px 0px 0px;
+}
+#article1 p, #article2 p{
+  font-family: 'Open Sans', sans-serif;
+  width:1000px;
+  margin-left:40px;
+  font-weight:300;
+}
+section .read{
+  font-family: 'Open Sans', sans-serif;
+  font-size:24px;
+  font-weight:600;
+  color:#606161;
+  text-decoration:none;
+  /*float:right;*/
+  margin:40px 0px 0px 900px;
+  /*margin-right:0px;*/
+}
+hr{
+  clear:both;
+  width:1000px;
+  margin-left:50px;
+}
+#banner2 {
+  margin-top:80px;
+  background-color:#f9e42e;
+  padding:20px;
+  display:block;
+  text-align:center;
+  width:100%;
+}
+#banner2 a {
+  background-color:#033048;
+  padding: 5px 20px 5px 20px;
+  border-radius: 5px;
+  font-family:sans-serif bold 12px;
+  font-weight:bolder;
+  color:white;
+  text-decoration: none;
+}
+
+section{
+  float:left;
+  width:75%;
+  height:50%;
+}
+aside {
+  float:right;
+  width:25%;
+
+}
+#categories{
+  /*margin-right:350px;*/
+  /*float:right;*/
+  margin-top:30px;
+  width:200px;
+}
+#about{
+  /*margin-right:290px;*/
+  margin-top:30px;
+  /*float:right;*/
+}
+aside h3{
+  font-size:32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+}
+aside a{
+  font-size:24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  color:#606161;
+  text-decoration:none;
+  width-right:40px;
+  margin-top:30px;
+}
+aside #link{
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  color:#121212;
+}
+aside p {
+  font-size:22px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  color:#606161;
+  width:240px;
+  margin-top:20px;
+}
+#gutter {
+  /*float:right;*/
+  width:200px;
+  margin-top:40px;
+  /*clear:both;*/
+  /*padding-left:22%;*/
+}
+a:hover {
+    color: #ca121d;
+  }
+
+
